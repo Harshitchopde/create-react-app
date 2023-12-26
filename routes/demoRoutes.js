@@ -1,7 +1,7 @@
+import express from "express";
 
-const express = require("express");
-const { default: Demo } = require("../models/Demo");
-const { createStudent } = require("../controllers/demo");
+import { createStudent }  from "../controllers/demo.js";
+
 const router = express.Router();
 
 // define your routes

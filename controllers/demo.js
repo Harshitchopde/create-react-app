@@ -1,4 +1,4 @@
-import Demo from "../models/Demo";
+import Demo from "../models/Demo.js";
 
 export const createStudent =async (req,res,next)=>{
     try {

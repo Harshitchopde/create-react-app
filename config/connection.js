@@ -1,6 +1,7 @@
-import mongoose from "mongoose"
 
-export const Connect = ()=>{
+import mongoose from "mongoose";
+
+export const  Connect = ()=>{
     mongoose.connect(process.env.MONGODB).then(()=>{
         console.log("DataBase Connected");
         
@@ -9,3 +10,4 @@ export const Connect = ()=>{
         
     })
 }
+// module.exports = Connect
